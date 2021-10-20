@@ -12,17 +12,17 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = """Hi, {}.
-This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.
+API_TEXT = """Hi Ngab, {}.
+Ini adalah Bot Pembangkit Sesi String Pyrogram. Saya akan menghasilkan Sesi String dari Akun Telegram Anda..
 
-By @Discovery_Updates
+By @ImTheLastKingMs
 
-Now send your `API_ID` same as `APP_ID` to Start Generating Session."""
-HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
+Sekarang kirim`API_ID` yang sama dengan `APP_ID` untuk memulai sesi pembuatan."""
+HASH_TEXT = "Sekarang kirim no`API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
-    "Now send your Telegram account's Phone number in International Format. \n"
-    "Including Country code. Example: **+14154566376**\n\n"
-    "Press /cancel to Cancel Task."
+    "sekarang kirim no telepon anda ngab dengan format international. \n"
+    "Termasuk Kode negara. Contoh: **+6254566376**\n\n"
+    "tekan /batal untuk membatalkan tugas."
 )
 
 @bot.on_message(filters.private & filters.command("start"))
@@ -36,14 +36,14 @@ async def genStr(_, msg: Message):
     try:
         check_api = int(api.text)
     except Exception:
-        await msg.reply("`API_ID` is Invalid.\nPress /start to Start again.")
+        await msg.reply("`API_ID` Tidak Valid.\nTekan /mulai untuk Memulai lagi.").")
         return
     api_id = api.text
     hash = await bot.ask(chat.id, HASH_TEXT)
     if await is_cancel(msg, hash.text):
         return
     if not len(hash.text) >= 30:
-        await msg.reply("`API_HASH` is Invalid.\nPress /start to Start again.")
+        await msg.reply("`API_HASH` tidak valid.\nTekan /Mulai untuk Memulai lagi ngab.")
         return
     api_hash = hash.text
     while True:
@@ -159,11 +159,11 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Support Group', url='https://t.me/linux_repo'),
-                InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')
+                InlineKeyboardButton('Support Group', url='https://t.me/Mimik_susu1'),
+                InlineKeyboardButton('Developer', url='https://t.me/ImTheLastKingms')
             ],
             [
-                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/Discovery_Updates'),
+                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/RaxsStory'),
             ]
         ]
     )
