@@ -17,7 +17,7 @@ Repo Bot ini untuk menghasilkan Strings sesion Anda Ngab anjayy
   - Telegram Bot Token from [here](https://t.me/BotFather).
 
 ## Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbirHasan2005/TG-String-Session/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rakaxyxz/Rax-Strings/tree/main)
 
 ## Support Group:
 <a href="https://t.me/Mimik_Susu1"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Grup-blue.svg?logo=telegram"></a>
