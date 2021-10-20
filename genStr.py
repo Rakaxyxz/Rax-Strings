@@ -36,7 +36,7 @@ async def genStr(_, msg: Message):
     try:
         check_api = int(api.text)
     except Exception:
-        await msg.reply("`API_ID` Tidak Valid.\nTekan /mulai untuk Memulai lagi.").")
+        await msg.reply("`API_ID` Tidak Valid.\nTekan /mulai untuk Memulai lagi.")
         return
     api_id = api.text
     hash = await bot.ask(chat.id, HASH_TEXT)
