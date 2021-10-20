@@ -2,7 +2,7 @@
 Repo Bot ini untuk menghasilkan Strings sesion Anda Ngab anjayy
 
 ## Demo Bot:
-<a href="https://t.me/StringSessionGen_Bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Rakastringsbot_Bot"><img src="https://img.shields.io/badge/Telegram-RakaBot-blue.svg?logo=telegram"></a>
 
 ## Configs:
 - API_HASH
